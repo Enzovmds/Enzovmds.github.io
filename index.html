@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eduperson | cadastro</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style type="text/css">
+
+		* {
+			margin: 0px;
+			padding: 0px;
+			font-family: 'Bree Serif', serif;
+		}
+
+		@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+		form {
+			display:flex;
+			flex-direction: column;
+		}
+
+		body {
+			background: #004aad;
+			display: flex;
+			justify-content: center;
+
+		}
+
+		a {
+			text-decoration: none;
+			background: ;
+		}
+
+		img {
+			height: 50px;
+			position: relative;
+			left: 50px;
+			padding: 20px;
+
+
+
+		}
+
+		.texto {
+			margin-top: 10px;
+			background: #f0faf3;
+			border: none;
+			height: 10px;
+			outline: none;
+			border-radius: 8px; 
+			padding: 20px;
+			font-size: 0.9rem;
+		}
+		
+		.container {
+			background: white;
+            height: 500px;
+            width: 360px;
+            padding: 2rem;
+            border-radius: 8px;
+            border: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+		}
+
+		.botao {
+            background: #004aad;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            height: 45px;
+            font-weight: bold
+            font-weight: 300;
+            width: 360px;
+            font-size: 0.9rem;
+		}
+
+		.botao hover {
+			letter-spacing: 0.5px;
+			background:#001dad
+		}
+
+		.entreagora {
+			text-align: center ;
+		}
+
+		@media (max-width: 600px){
+			.container {
+				background: white;
+            	height: 500px;
+            	width: 200px;
+           	 	padding: 2rem;
+            	border-radius: 8px;
+            	border: none;
+            	position: absolute;
+            	top: 50%;
+            	left: 50%;
+            	transform: translate(-50%,-50%);
+            }
+		}
+
+		@media (max-width: 400px){
+			.container {
+				background: white;
+            	height: 500px;
+            	width: 300px;
+           	 	padding: 2rem;
+            	border-radius: 8px;
+            	border: none;
+            	position: absolute;
+            	top: 50%;
+            	left: 50%;
+            	transform: translate(-50%,-50%);
+            }
+
+            img {
+			height: 50px;
+			position: relative;
+			left: 30px;
+			padding: 20px;
+		}
+
+            .botao {
+            background: #004aad;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            height: 45px;
+            font-weight: bold
+            font-weight: 300;
+            width: 300px;
+
+        }
+
+
+		@media (max-width: 600px) {
+			.container {
+				background: white;
+            	height: 500px;
+            	width: 400px;
+           	 	padding: 2rem;
+            	border-radius: 8px;
+            	border: none;
+            	position: absolute;
+            	top: 50%;
+            	left: 50%;
+            	transform: translate(-50%,-50%);
+            }
+
+            img {
+			height: 50px;
+			position: relative;
+			left: 60px;
+			padding: 20px;
+		}
+
+            .botao {
+            background: #004aad;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            height: 45px;
+            font-weight: bold
+            font-weight: 300;
+            width: 400px;
+        }
+
+		}
+		
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<img src="imagens/secretodois.png"><br>
+				<form>
+					<input class="texto" type="text" name="nomecompleto" placeholder="Nome Completo">
+					<input class="texto" type="text" name="e-mail" placeholder="E-mail">
+					<input class="texto" type="text" name="confirmee-mail" placeholder="Confirme o seu e-mail">
+					<input class="texto" type="password" name="senha" placeholder="senha">
+					<input class="texto" type="password" name="confirmesuasenha" placeholder="Confirme sua senha"><br>
+					<input class="botao" type="submit" name="Entrar" value="Cadastrar"><br>
+					<p class="entreagora">Já tem cadastro?<a href="google"> Entre agora</a></p>
+			</form>
+	</div>
+
+</body>
+</html>
