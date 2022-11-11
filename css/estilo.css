@@ -1,0 +1,306 @@
+/*Open Formações padrões*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-color: #f4f8f9;
+	font-size: 1.2em;
+	font-family: 'Bree Serif', serif;
+	}
+
+video {
+	padding: 0;
+	margin: 0;
+}
+
+/*//Formações padrões END//*/
+
+
+/****************************************************************************/
+
+
+/**Open Topo**/
+
+#topo {
+	background-color: white;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-left: 20px;
+}
+
+#logo {
+	width: 300px;
+	height: 95px;
+}
+
+#conteudo-topo {
+	margin-left: 100vh;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#conteudo-topo a {
+	transition: height 0.5s;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 1.2em;
+	color: #104ca8;
+}
+
+#conteudo-topo a:hover {
+	color: blue;
+}
+
+#box-menu {
+	display: inline;
+	cursor: pointer;
+	margin-right: 5vh;
+}
+
+#box-menu div { 
+	width: 32px;
+ 	height: 2px;
+  	background: black;
+  	margin: 8px;
+  	transition: 0.3s;
+  	display: flex;
+  	align-items: center;
+
+}
+
+
+/**END Topo**/
+
+/****************************************************************************/
+
+/**Open Conteudo 1 | Pagina**/
+
+#conteudo-pagina {
+	background-color: white;
+	height: 350px;
+	margin: 40px 150px;
+	border-radius: 20px;
+	display: flex;
+}
+
+#area-conteudo {
+	padding: 30px 35px;
+	width: 900px;
+}
+
+#imagem-conteudo1 {
+	padding-left: 150px;
+
+}
+
+/**END Conteudo 1 | Pagina**/
+
+/****************************************************************************/
+
+/**Open Conteudo 2 | Pagina**/
+
+#conteudo-pagina2 {
+	background-color:;
+	margin: 40px 150px;
+	display: flex;
+}
+
+#conteudo-pagina2 img {
+	height: 400px;
+	width: 400px;
+	padding: 0px 20px;
+}
+
+/**END Conteudo 2 | Pagina**/
+
+
+/****************************************************************************/
+
+
+
+/**Open Conteudo 3 | Pagina**/
+
+#conteudo-pagina3 {
+	background-color:;
+	margin: 40px 150px;
+	position: relative;
+	display: flex;
+}
+
+#video {
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+
+/****************************************************************************/
+
+
+
+/**Open Rodape | Pagina**/
+
+#rodape {
+	background-color: #1d1b1e;
+	color: white;
+	padding: 80px 140px;
+	position: bottom;
+}
+
+#rodape a, p {
+	color: white ;
+	padding-left: 30px;
+	font-size: 1.1em;
+	margin-left: 10px;
+}
+
+#rodape-conteudo1 {
+	border-bottom: 4px solid white;
+	height: 80px;
+	display: flex;
+	padding-left: 40px;
+}
+
+#rodape-conteudo2 {
+	display: flex;
+	margin-top: 40px;
+
+}
+
+#imagens-rodape {
+	padding: 0px 20px;
+}
+
+/**END Rodape | Pagina**/
+
+
+/****************************************************************************/
+
+
+/**Open Video Aula | Pagina**/
+
+#conteudo-video-aula {
+	margin: 50px 80px;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	background-color: white;
+	height: 100px;
+	width: 89%;
+}
+
+#conteudo-video-aula form, ul, li, a {
+	list-style: none;
+	display: flex;
+	text-decoration: none;
+	color: white;
+}
+
+#conteudo-video-aula li {
+	border-radius: 10px;
+	height: 30px;
+	padding: 5px;
+	align-items: center;
+	background-color:#104ca8;
+	margin-left: 20px;
+	margin-top: 10px;
+	transition: height 0.4s, width 0.4s, transform 0.4s ;
+}
+
+#conteudo-video-aula li:hover {
+	height: 40px;
+	background-color:#2260bf;
+}
+
+
+#conteiner {	
+	margin: 50px 100px;
+	padding-left: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	border-radius: 20px;
+	padding-top: 30px;
+}
+
+
+/****************************************************************************/
+
+
+/**Open Video Aula - Matemática | Pagina**/
+
+#container-matematica {
+	margin: 10px 100px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.matematica {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+}
+
+#vejamais1 {
+	border: 1px solid red;
+}
+
+
+/****************************************************************************/
+
+
+/**Open Texto**/
+
+#conteudo-pagina2 h3 {
+	height: 50px;
+	width: 50em;
+	font-weight: 10;
+}
+#conteudo-pagina3 p {
+	color: blue;
+	text-decoration: underline;
+}
+
+ #conteudo-pagina2 p {
+	color: blue;
+	text-decoration: underline;
+}
+
+#area-conteudo h2 {
+	font-size: 2em;
+}
+
+#rodape-conteudo3 p {
+	text-align: center;
+	padding-top: 40px;
+	font-size: 1.3em;
+}
+
+
+/**END Texto**/
+
+
+/****************************************************************************/
+
+
+@media (min-width: 640px) {
+	#topo img {
+		align-items: center;
+	}
+				
+}
+
+
+
